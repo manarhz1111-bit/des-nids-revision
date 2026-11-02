@@ -1,0 +1,154 @@
+{
+  "macro_f1": {
+    "friedman_stat": 36.84,
+    "friedman_p": 2.8105827365688828e-05,
+    "wilcoxon_one_sided_p_raw": {
+      "DecisionTree": 0.03125,
+      "GaussianNB": 0.03125,
+      "KNORAE": 0.3125,
+      "LogisticRegression": 0.03125,
+      "RandomForest": 0.03125,
+      "XGBoost": 0.6875,
+      "hard_voting": 0.09375,
+      "soft_voting": 0.3125,
+      "stacking": 0.21875
+    },
+    "wilcoxon_holm_adjusted": {
+      "DecisionTree": 0.28125,
+      "GaussianNB": 0.28125,
+      "LogisticRegression": 0.28125,
+      "RandomForest": 0.28125,
+      "hard_voting": 0.46875,
+      "stacking": 0.875,
+      "KNORAE": 0.9375,
+      "soft_voting": 0.9375,
+      "XGBoost": 0.9375
+    },
+    "mean_rank": {
+      "XGBoost": 2.6,
+      "KNORAU": 2.8,
+      "KNORAE": 3.2,
+      "soft_voting": 3.6,
+      "stacking": 4.0,
+      "hard_voting": 5.0,
+      "RandomForest": 6.8,
+      "DecisionTree": 8.0,
+      "LogisticRegression": 9.0,
+      "GaussianNB": 10.0
+    }
+  },
+  "mcc": {
+    "friedman_stat": 41.59636363636366,
+    "friedman_p": 3.894555075184928e-06,
+    "wilcoxon_one_sided_p_raw": {
+      "DecisionTree": 0.03125,
+      "GaussianNB": 0.03125,
+      "KNORAE": 0.40625,
+      "LogisticRegression": 0.03125,
+      "RandomForest": 0.03125,
+      "XGBoost": 0.6875,
+      "hard_voting": 0.03125,
+      "soft_voting": 0.59375,
+      "stacking": 0.03125
+    },
+    "wilcoxon_holm_adjusted": {
+      "DecisionTree": 0.28125,
+      "GaussianNB": 0.28125,
+      "LogisticRegression": 0.28125,
+      "RandomForest": 0.28125,
+      "hard_voting": 0.28125,
+      "stacking": 0.28125,
+      "KNORAE": 1.0,
+      "soft_voting": 1.0,
+      "XGBoost": 1.0
+    },
+    "mean_rank": {
+      "XGBoost": 2.2,
+      "soft_voting": 2.4,
+      "KNORAU": 2.6,
+      "KNORAE": 3.2,
+      "stacking": 4.6,
+      "hard_voting": 6.0,
+      "RandomForest": 7.0,
+      "DecisionTree": 8.0,
+      "LogisticRegression": 9.0,
+      "GaussianNB": 10.0
+    }
+  },
+  "avg_fpr": {
+    "friedman_stat": 41.59636363636366,
+    "friedman_p": 3.894555075184928e-06,
+    "wilcoxon_one_sided_p_raw": {
+      "DecisionTree": 0.03125,
+      "GaussianNB": 0.03125,
+      "KNORAE": 0.03125,
+      "LogisticRegression": 0.03125,
+      "RandomForest": 0.03125,
+      "XGBoost": 0.3125,
+      "hard_voting": 0.03125,
+      "soft_voting": 0.59375,
+      "stacking": 0.03125
+    },
+    "wilcoxon_holm_adjusted": {
+      "DecisionTree": 0.28125,
+      "GaussianNB": 0.28125,
+      "KNORAE": 0.28125,
+      "LogisticRegression": 0.28125,
+      "RandomForest": 0.28125,
+      "hard_voting": 0.28125,
+      "stacking": 0.28125,
+      "XGBoost": 0.625,
+      "soft_voting": 0.625
+    },
+    "mean_rank": {
+      "KNORAU": 1.8,
+      "soft_voting": 2.2,
+      "XGBoost": 3.2,
+      "KNORAE": 3.4,
+      "hard_voting": 4.4,
+      "stacking": 6.4,
+      "RandomForest": 6.6,
+      "DecisionTree": 8.0,
+      "GaussianNB": 9.0,
+      "LogisticRegression": 10.0
+    }
+  },
+  "benign_false_alarm_rate": {
+    "friedman_stat": 42.266099635479975,
+    "friedman_p": 2.9381410713691974e-06,
+    "wilcoxon_one_sided_p_raw": {
+      "DecisionTree": 0.03125,
+      "GaussianNB": 0.03125,
+      "KNORAE": 0.96875,
+      "LogisticRegression": 0.03125,
+      "RandomForest": 0.03125,
+      "XGBoost": 1.0,
+      "hard_voting": 0.03125,
+      "soft_voting": 0.84375,
+      "stacking": 1.0
+    },
+    "wilcoxon_holm_adjusted": {
+      "DecisionTree": 0.28125,
+      "GaussianNB": 0.28125,
+      "LogisticRegression": 0.28125,
+      "RandomForest": 0.28125,
+      "hard_voting": 0.28125,
+      "soft_voting": 1.0,
+      "KNORAE": 1.0,
+      "XGBoost": 1.0,
+      "stacking": 1.0
+    },
+    "mean_rank": {
+      "stacking": 1.6,
+      "XGBoost": 1.9,
+      "KNORAE": 3.0,
+      "soft_voting": 4.0,
+      "KNORAU": 4.5,
+      "RandomForest": 6.7,
+      "DecisionTree": 6.8,
+      "hard_voting": 7.5,
+      "LogisticRegression": 9.0,
+      "GaussianNB": 10.0
+    }
+  }
+}

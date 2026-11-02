@@ -1,0 +1,43 @@
+{
+  "rows_loaded": 3145724,
+  "n_feature_columns": 78,
+  "class_counts_loaded": {
+    "Benign": 2110475,
+    "DoS attacks-Hulk": 461912,
+    "FTP-BruteForce": 193360,
+    "SSH-Bruteforce": 187589,
+    "DoS attacks-SlowHTTPTest": 139890,
+    "DoS attacks-GoldenEye": 41508,
+    "DoS attacks-Slowloris": 10990
+  },
+  "exact_duplicate_rows_features_and_label": 1042096,
+  "rows_whose_feature_vector_has_another_label": 333267,
+  "share_of_rows_with_an_exact_copy_per_class": {
+    "Benign": 0.177109,
+    "DoS attacks-GoldenEye": 0.005493,
+    "DoS attacks-Hulk": 0.786126,
+    "DoS attacks-SlowHTTPTest": 0.999986,
+    "DoS attacks-Slowloris": 0.146133,
+    "FTP-BruteForce": 0.999995,
+    "SSH-Bruteforce": 0.499128
+  },
+  "redundant_copies_per_class": {
+    "Benign": 297307,
+    "DoS attacks-GoldenEye": 116,
+    "DoS attacks-Hulk": 316713,
+    "DoS attacks-SlowHTTPTest": 139835,
+    "DoS attacks-Slowloris": 1278,
+    "FTP-BruteForce": 193306,
+    "SSH-Bruteforce": 93541
+  },
+  "rows_after_dedup": 2103517,
+  "class_counts_after_dedup": {
+    "Benign": 1813168,
+    "DoS attacks-Hulk": 145199,
+    "SSH-Bruteforce": 94041,
+    "DoS attacks-GoldenEye": 41392,
+    "DoS attacks-Slowloris": 9712,
+    "DoS attacks-SlowHTTPTest": 3,
+    "FTP-BruteForce": 2
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "GaussianNB": {
+    "ref_correct_other_wrong": 41888,
+    "ref_wrong_other_correct": 15,
+    "exact_mcnemar_p": 0.0
+  },
+  "LogisticRegression": {
+    "ref_correct_other_wrong": 12324,
+    "ref_wrong_other_correct": 10,
+    "exact_mcnemar_p": 0.0
+  },
+  "DecisionTree": {
+    "ref_correct_other_wrong": 164,
+    "ref_wrong_other_correct": 29,
+    "exact_mcnemar_p": 4.548025912136298e-24
+  },
+  "RandomForest": {
+    "ref_correct_other_wrong": 98,
+    "ref_wrong_other_correct": 13,
+    "exact_mcnemar_p": 2.658284186005402e-17
+  },
+  "XGBoost": {
+    "ref_correct_other_wrong": 31,
+    "ref_wrong_other_correct": 35,
+    "exact_mcnemar_p": 0.7122308826373509
+  },
+  "hard_voting": {
+    "ref_correct_other_wrong": 83,
+    "ref_wrong_other_correct": 5,
+    "exact_mcnemar_p": 2.6897131479179897e-19
+  },
+  "soft_voting": {
+    "ref_correct_other_wrong": 18,
+    "ref_wrong_other_correct": 19,
+    "exact_mcnemar_p": 1.0
+  },
+  "stacking": {
+    "ref_correct_other_wrong": 25,
+    "ref_wrong_other_correct": 23,
+    "exact_mcnemar_p": 0.8854334972865135
+  },
+  "KNORAE": {
+    "ref_correct_other_wrong": 17,
+    "ref_wrong_other_correct": 13,
+    "exact_mcnemar_p": 0.5846647117286922
+  }
+}
