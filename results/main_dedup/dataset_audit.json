@@ -1,0 +1,52 @@
+{
+  "rows_loaded": 2539593,
+  "n_feature_columns": 78,
+  "class_counts_loaded": {
+    "BENIGN": 2273097,
+    "DoS Hulk": 231073,
+    "DoS GoldenEye": 10293,
+    "FTP-Patator": 7938,
+    "SSH-Patator": 5897,
+    "DoS slowloris": 5796,
+    "DoS Slowhttptest": 5499
+  },
+  "exact_duplicate_rows_features_and_label": 263028,
+  "rows_whose_feature_vector_has_another_label": 5517,
+  "share_of_rows_with_an_exact_copy_per_class": {
+    "BENIGN": 0.116184,
+    "DoS GoldenEye": 0.002137,
+    "DoS Hulk": 0.257771,
+    "DoS Slowhttptest": 0.058738,
+    "DoS slowloris": 0.09127,
+    "FTP-Patator": 0.309524,
+    "SSH-Patator": 0.479227
+  },
+  "redundant_copies_per_class": {
+    "BENIGN": 199417,
+    "DoS GoldenEye": 11,
+    "DoS Hulk": 58224,
+    "DoS Slowhttptest": 271,
+    "DoS slowloris": 422,
+    "FTP-Patator": 2005,
+    "SSH-Patator": 2678
+  },
+  "ratio_to_official_cicids2017_counts": {
+    "BENIGN": 1.0,
+    "DoS Hulk": 1.0,
+    "DoS GoldenEye": 1.0,
+    "DoS slowloris": 1.0,
+    "DoS Slowhttptest": 1.0,
+    "FTP-Patator": 1.0,
+    "SSH-Patator": 1.0
+  },
+  "rows_after_dedup": 2276261,
+  "class_counts_after_dedup": {
+    "BENIGN": 2073528,
+    "DoS Hulk": 172699,
+    "DoS GoldenEye": 10282,
+    "FTP-Patator": 5933,
+    "DoS slowloris": 5372,
+    "DoS Slowhttptest": 5228,
+    "SSH-Patator": 3219
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "GaussianNB": {
+    "ref_correct_other_wrong": 41946,
+    "ref_wrong_other_correct": 20,
+    "exact_mcnemar_p": 0.0
+  },
+  "LogisticRegression": {
+    "ref_correct_other_wrong": 8156,
+    "ref_wrong_other_correct": 18,
+    "exact_mcnemar_p": 0.0
+  },
+  "DecisionTree": {
+    "ref_correct_other_wrong": 123,
+    "ref_wrong_other_correct": 12,
+    "exact_mcnemar_p": 2.3484967053458445e-24
+  },
+  "RandomForest": {
+    "ref_correct_other_wrong": 37,
+    "ref_wrong_other_correct": 11,
+    "exact_mcnemar_p": 0.0002222449626216872
+  },
+  "XGBoost": {
+    "ref_correct_other_wrong": 19,
+    "ref_wrong_other_correct": 26,
+    "exact_mcnemar_p": 0.3712980344710104
+  },
+  "hard_voting": {
+    "ref_correct_other_wrong": 8,
+    "ref_wrong_other_correct": 3,
+    "exact_mcnemar_p": 0.2265625
+  },
+  "soft_voting": {
+    "ref_correct_other_wrong": 10,
+    "ref_wrong_other_correct": 11,
+    "exact_mcnemar_p": 1.0
+  },
+  "stacking": {
+    "ref_correct_other_wrong": 9,
+    "ref_wrong_other_correct": 8,
+    "exact_mcnemar_p": 1.0
+  },
+  "KNORAE": {
+    "ref_correct_other_wrong": 24,
+    "ref_wrong_other_correct": 10,
+    "exact_mcnemar_p": 0.024306510109454393
+  },
+  "METADES": {
+    "ref_correct_other_wrong": 7,
+    "ref_wrong_other_correct": 7,
+    "exact_mcnemar_p": 1.0
+  },
+  "DESP": {
+    "ref_correct_other_wrong": 9,
+    "ref_wrong_other_correct": 1,
+    "exact_mcnemar_p": 0.021484375
+  },
+  "OLA": {
+    "ref_correct_other_wrong": 577,
+    "ref_wrong_other_correct": 14,
+    "exact_mcnemar_p": 1.5752956830893924e-150
+  },
+  "LCA": {
+    "ref_correct_other_wrong": 939,
+    "ref_wrong_other_correct": 18,
+    "exact_mcnemar_p": 1.0090804798899896e-250
+  },
+  "SingleBest": {
+    "ref_correct_other_wrong": 19,
+    "ref_wrong_other_correct": 26,
+    "exact_mcnemar_p": 0.3712980344710104
+  }
+}
