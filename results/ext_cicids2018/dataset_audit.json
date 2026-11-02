@@ -1,0 +1,35 @@
+{
+  "rows_loaded": 2812474,
+  "n_feature_columns": 78,
+  "class_counts_loaded": {
+    "Benign": 2110475,
+    "DoS attacks-Hulk": 461912,
+    "SSH-Bruteforce": 187589,
+    "DoS attacks-GoldenEye": 41508,
+    "DoS attacks-Slowloris": 10990
+  },
+  "exact_duplicate_rows_features_and_label": 708955,
+  "rows_whose_feature_vector_has_another_label": 0,
+  "share_of_rows_with_an_exact_copy_per_class": {
+    "Benign": 0.177109,
+    "DoS attacks-GoldenEye": 0.005493,
+    "DoS attacks-Hulk": 0.786126,
+    "DoS attacks-Slowloris": 0.146133,
+    "SSH-Bruteforce": 0.499128
+  },
+  "redundant_copies_per_class": {
+    "Benign": 297307,
+    "DoS attacks-GoldenEye": 116,
+    "DoS attacks-Hulk": 316713,
+    "DoS attacks-Slowloris": 1278,
+    "SSH-Bruteforce": 93541
+  },
+  "rows_after_dedup": 2103519,
+  "class_counts_after_dedup": {
+    "Benign": 1813168,
+    "DoS attacks-Hulk": 145199,
+    "SSH-Bruteforce": 94048,
+    "DoS attacks-GoldenEye": 41392,
+    "DoS attacks-Slowloris": 9712
+  }
+}
